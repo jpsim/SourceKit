@@ -1,0 +1,5 @@
+module SourceKit [system] {
+  header "/usr/local/include/sourcekitdInProc/sourcekitd.h"
+  link "sourcekitdInProc"
+  export *
+}
